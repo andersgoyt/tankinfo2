@@ -1,166 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strv 122 Tank</title>
+    <title>Strv 122 Tank Details</title>
+    <meta name="STRV 122 facts" content="Information about STRV 122">
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            color: #333;
         }
-        header {
+        #menu {
             background-color: #333;
             color: #fff;
-            padding: 20px 0;
+            padding: 10px 0;
             text-align: center;
         }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav ul li a {
+        #menu a {
             color: #fff;
+            margin-right: 15px;
             text-decoration: none;
         }
-        section {
+        .tank-details {
+            margin: 20px auto;
+            width: 80%;
             padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 5px;
-            margin-bottom: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
         }
-        table {
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .specs-table {
             width: 100%;
             border-collapse: collapse;
         }
-        th, td {
-            padding: 10px;
+        .specs-table th, .specs-table td {
             border: 1px solid #ddd;
-            text-align: left;
+            padding: 8px;
         }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
+        .specs-table th {
+            background-color: #f2f2f2;
+        }
+        .history-event {
+            margin-bottom: 20px;
+        }
+        .history-event h3 {
+            margin: 0;
+        }
+        .history-event p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Strv 122 Main Battle Tank</h1>
-        <nav>
-            <ul>
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#history">History</a></li>
-                <li><a href="#armament">Armament</a></li>
-                <li><a href="#technology">Technology</a></li>
-                <li><a href="#performance">Performance</a></li>
-                <li><a href="#specs">Specifications</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="overview">
-        <h2>Overview</h2>
-        <p>The Strv 122 is a Swedish main battle tank developed by the Swedish defense company Hägglunds in the late 1990s.</p>
-        <p>It is based on the Leopard 2A5 and shares many similarities with its predecessor, the Strv 121.</p>
-        <p>The Strv 122 is known for its exceptional mobility, advanced firepower, and superior protection.</p>
-    </section>
-
-    <section id="history">
-        <h2>History</h2>
-        <p>The development of the Strv 122 began in response to the Swedish Armed Forces' requirement for a modern main battle tank capable of meeting the challenges of contemporary warfare.</p>
-        <p>Production started in 1998, and the tank entered service with the Swedish Army in 2002.</p>
-        <p>Since then, it has been a cornerstone of Sweden's armored forces, participating in various military exercises and operations.</p>
-    </section>
-
-    <section id="armament">
-        <h2>Armament</h2>
-        <p>The Strv 122 is equipped with a 120mm L/44 smoothbore gun, capable of firing a variety of ammunition, including APFSDS, HEAT, and MPAT rounds.</p>
-        <p>It also features a coaxial 7.62mm machine gun and a roof-mounted 7.62mm anti-aircraft machine gun.</p>
-    </section>
-
-    <section id="technology">
-        <h2>Technology</h2>
-        <p>The Strv 122 incorporates advanced technology to enhance its combat capabilities and survivability on the battlefield.</p>
-        <p>Its modular composite armor provides protection against various threats, including kinetic energy penetrators and shaped charges.</p>
-        <p>The tank's fire control system includes thermal imaging, laser rangefinder, and ballistic computer for accurate target acquisition and engagement.</p>
-        <p>Furthermore, it is equipped with an NBC protection system and smoke grenade launchers for battlefield survivability.</p>
-    </section>
-
-    <section id="performance">
-        <h2>Performance</h2>
-        <p>The Strv 122 is powered by a MTU MB 873 Ka-501 turbocharged diesel engine, delivering 1,500 horsepower.</p>
-        <p>With this powerplant, the tank can achieve a top speed of 70 km/h on roads and has a range of over 500 kilometers.</p>
-        <p>Its advanced suspension system allows for excellent off-road performance, enabling the tank to traverse rough terrain with ease.</p>
-        <p>The Strv 122 can climb gradients of up to 60% and cross trenches up to 3 meters wide.</p>
-        <p>It has a fording depth of 1.2 meters without preparation, which can be increased to 2.25 meters with preparation.</p>
-        <p>The tank's low-profile design and advanced camouflage capabilities minimize its visibility on the battlefield,
-        enhancing its survivability.</p>
-    </section>
-
-    <section id="specs">
-        <h2>Specifications</h2>
-        <table>
+    <div id="menu">
+        <a href="#overview">Overview</a>
+        <a href="#specs">Specifications</a>
+        <a href="#history">History</a>
+        <a href="#service">Service History</a>
+    </div>
+    <div class="tank-details">
+        <h1>Strv 122 Tank</h1>
+        <img src="strv122.jpg" alt="Strv 122 Tank">
+        <h2 id="overview">Overview</h2>
+        <p>The Strv 122 is a Swedish main battle tank that, like the German Leopard 2A5, is based on the German Leopard 2 improved variant utilizing such newer technology as command, control, and fire-control systems, reinforced armour, and long-term combat capacity. Externally, the vehicle is distinguished from the Leopard 2A5 by the French GALIX smoke dispensers, different storage bins, and the thicker crew hatches.</p>
+        <h2 id="specs">Specifications</h2>
+        <table class="specs-table">
             <tr>
-                <th>Parameter</th>
+                <th>Specification</th>
                 <th>Details</th>
             </tr>
             <tr>
-                <td>Weight</td>
-                <td>62 tonnes</td>
+                <td>Type</td>
+                <td>Main battle tank</td>
+            </tr>
+            <tr>
+                <td>Place of Origin</td>
+                <td>Sweden / Germany</td>
+            </tr>
+            <tr>
+                <td>Manufacturer</td>
+                <td>Krauss-Maffei Wegmann and Land Systems Hägglunds AB</td>
+            </tr>
+            <tr>
+                <td>Unit Cost</td>
+                <td>US$ 5.74 million (FY 1994) (~$11.9 million FY 2023)</td>
+            </tr>
+            <tr>
+                <td>Mass</td>
+                <td>62.5 tonnes</td>
+            </tr>
+            <tr>
+                <td>Length</td>
+                <td>9.97 m (gun forward)</td>
+            </tr>
+            <tr>
+                <td>Width</td>
+                <td>3.75 m</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>3.0 m</td>
             </tr>
             <tr>
                 <td>Crew</td>
-                <td>4 (commander, gunner, loader, driver)</td>
+                <td>4</td>
             </tr>
             <tr>
-                <td>Main Gun</td>
-                <td>120mm smoothbore</td>
+                <td>Main Armament</td>
+                <td>1 x 120 mm Rheinmetall L44 smoothbore tank gun</td>
             </tr>
             <tr>
                 <td>Secondary Armament</td>
-                <td>Coaxial machine gun, roof-mounted anti-aircraft machine gun</td>
-            </tr>
-            <tr>
-                <td>Armor</td>
-                <td>Composite armor</td>
+                <td>2 x 7.62×51mm NATO Ksp m/94 machine gun</td>
             </tr>
             <tr>
                 <td>Engine</td>
-                <td>MTU MB 873 Ka-501 turbocharged diesel, 1,500 hp</td>
+                <td>MTU MB 873 Ka-501 liquid-cooled V-12 Twin-turbo diesel engine</td>
             </tr>
             <tr>
-                <td>Top Speed</td>
-                <td>70 km/h</td>
+                <td>Operational Range</td>
+                <td>550 km (internal fuel)</td>
             </tr>
             <tr>
-                <td>Range</td>
-                <td>Over 500 km</td>
+                <td>Maximum Speed</td>
+                <td>68 km/h (42.3 mp/h)</td>
             </tr>
             <tr>
                 <td>Gradient</td>
-                <td>Up to 60%</td>
+                <td>Up to 60%</</td>
             </tr>
             <tr>
                 <td>Trench Crossing</td>
-                <td>3 meters</td>
+                <td>3 meters (9.84252 feet)</td>
             </tr>
             <tr>
                 <td>Fording Depth</td>
-                <td>1.2 meters without preparation, 2.25 meters with preparation</td>
+                <td>1.2 meters (3.94 feet) without preparation, 2.25 meters (7.38 feet) with preparation</td>
             </tr>
         </table>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Strv 122 Fan Club</p>
-    </footer>
+        <h2 id="history">History</h2>
+        <div class="history-event">
+            <h3>1991: Strv Ny Project</h3>
+            <p>After the strv 2000 project for a new Swedish main battle tank (for service after the year 2000) was dismissed, the Swedish government decided in 1991 that a foreign main battle tank was to be procured to replace the strv 101, 102, 103 and 104 in service at the time. During the project "Strv Ny", three tank models were sent to Sweden to participate in trials: the American M1A2 Abrams, the German Leopard 2 Improved, and a prototype variant of the French Leclerc.</p>
+        </div>
+        <div class="history-event">
+            <h3>1994: Strv 122 Production</h3>
+            <p>In 1994 the Swedish government decided to acquire 120 new production tanks and 160 older Leopard 2A4s as a stopgap before the newer tanks were finished. The Leopard 2A4 in Swedish service became designated strv 121 while the new production became the strv 122. Of the 120 strv 122, 29 were manufactured by Krauss-Maffei Wegmann while the other 91 were manufactured by Bofors and Hägglunds.</p>
+        </div>
+        <div class="history-event">
+            <h3>1996: Strv 122 Enters Service</h3>
+            <p>The Strv 122 was first delivered to the Swedish Army in 1996. Since then a number of upgraded versions have been proposed or accepted into service, such as the Strv 122B and Strv 122B+.</p>
+        </div>
+        <div class="history-event">
+            <h3>2023: Strv 122 in Ukraine</h3>
+            <p>On 24 February 2023, on the anniversary of the Russian full-scale invasion of Ukraine, the political decision was made, which meant that Sweden were to donate some ten tanks to Ukraine. The tanks are manned by soldiers that were trained in Sweden, by the Swedish army. On 24 September 2023, during the Zaporizhzhia counteroffensive in the Russian invasion of Ukraine, two Ukrainian Stridsvagn 122 tanks were lost in combat. However, one of them was recovered shortly after, repaired, and later inspected by Ukrainian President Volodymyr Zelenskyy.</p>
+        </div>
+        <h2 id="service">Service History</h2>
+        <p>The Strv 122 has been in service since 1997 and is used by the Swedish Army and the Ukrainian Army. It has been named the best armoured tank in the world - by experts and by those that use it alike. Now, ten Swedish armoured tanks (stridsvagn 122) are on the battlefield in Ukraine. Manned by Ukrainian crews, trained in Sweden. On 24 September 2023, during the Zaporizhzhia counteroffensive in the Russian invasion of Ukraine, two Ukrainian Stridsvagn 122 tanks were lost in combat. However, one of them was recovered shortly after, repaired, and later inspected by Ukrainian President Volodymyr Zelenskyy.</p>
+    </div>
+    <script type="text/luau" src="script.luau"></script>
 </body>
 </html>
